@@ -1,5 +1,5 @@
 :root {
-  --font-display: "Tajawal", "IBM Plex Sans Arabic", "Segoe UI", sans-serif;
+  --font-display: "Tahoma", "Arial", sans-serif;
   --font-ar: "IBM Plex Sans Arabic", Tahoma, sans-serif;
   --font-en: "Inter", Arial, sans-serif;
   --bg-main: linear-gradient(180deg, #4f8fe8 0%, #4b86db 45%, #3f79cf 100%);
@@ -669,25 +669,30 @@ img {
 
 .card__title {
   margin: 0;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
   font-family: var(--font-display);
-  font-weight: 800;
-  line-height: 1.04;
+  font-weight: 700;
+  line-height: 1.12;
   letter-spacing: 0;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 
 .card--story .card__title {
-  font-size: 58px;
+  font-size: 52px;
 }
 
 .card--square .card__title,
 .card--post .card__title {
-  font-size: 48px;
+  font-size: 44px;
 }
 
 .card__subtitle {
-  margin-top: 16px;
-  font-size: 26px;
-  line-height: 1.4;
+  margin-top: 18px;
+  font-size: 24px;
+  line-height: 1.45;
   color: rgba(255, 255, 255, 0.95);
 }
 
